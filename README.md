@@ -7,7 +7,7 @@ This library generates wrapper methods for KiiObject and builder of itself.
 
 ##Sample usage
 
-First of all, define KiiBucket name and KiiObject details. 
+First of all, define KiiBucket name and KiiObject details in Group.java.  
 
     @GroupScope(name = "hoge")
     public class Group {
@@ -15,7 +15,7 @@ First of all, define KiiBucket name and KiiObject details.
         private String name;
     }
 
-Next, select "Build APK".
+Next, select "Build APK". GroupBucket.java will generate.  
 
     public class GroupBucket {
       private KiiObject kiiObject;
