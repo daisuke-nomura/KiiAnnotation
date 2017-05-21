@@ -5,7 +5,7 @@
 KiiAnnotation is an Annotation Processor library for [KiiObject][kiiObject] of [Kii Cloud][kii].  
 This library generates wrapper methods for KiiObject and builder of itself.  
 
-##Sample usage
+## Sample usage
 
 First of all, define KiiBucket name and KiiObject details in Group.java.  
 
@@ -81,7 +81,7 @@ After that, write your code.
 If you like get/set**** or don't like builder, you could enable or disable it.
 
 
-###Application Scope
+### Application Scope
 @ApplicationScope
 
     @ApplicationScope(name = "app", simplify = false, builder = false, suffix = "Data")
@@ -139,12 +139,12 @@ You could change suffix of class name.
 The default suffix is 'Bucket'.
 
 
-###Group Scope
+### Group Scope
 @GroupScope
 
 refer to sample usage.
 
-###User Scope
+### User Scope
 @UserScope
 
     @UserScope(name = "user", builder = false)
@@ -187,7 +187,7 @@ then
       }
     }
 
-##Binaries
+## Binaries
 
     allprojects {
         repositories {
@@ -204,11 +204,11 @@ and
 
 If you using Android Studio 2.2 or below, use [android-apt][apt] instead of 'annotationProcessor'.
 
-##Bugs and Feedback
+## Bugs and Feedback
 
 Please use [GitHub Issues][issues].
 
-##License
+## License
 
    Copyright 2017 Daisuke Nomura
 
