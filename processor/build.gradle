@@ -5,7 +5,7 @@ group='com.github.daisuke-nomura'
 
 dependencies {
     compile project(':annotations')
-    compile 'com.squareup:javapoet:1.8.0'
+    compile 'com.squareup:javapoet:1.9.0'
 }
 
 sourceCompatibility = "1.8"
